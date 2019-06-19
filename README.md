@@ -8,6 +8,7 @@
     - [知识点介绍](#%E7%9F%A5%E8%AF%86%E7%82%B9%E4%BB%8B%E7%BB%8D)
     - [目的](#%E7%9B%AE%E7%9A%84)
   - [第2章 面向对象](#%E7%AC%AC2%E7%AB%A0-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1)
+    - [2.1 搭建开发环境](#21-%E6%90%AD%E5%BB%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83)
   - [第3章 设计原则](#%E7%AC%AC3%E7%AB%A0-%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99)
   - [第4章 工厂模式](#%E7%AC%AC4%E7%AB%A0-%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F)
   - [第5章 单例模式](#%E7%AC%AC5%E7%AB%A0-%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F)
@@ -41,9 +42,26 @@
 2. 5大设计原则, 23种设计模式
 3. 能应对前端面试中相关面试题
 ### 第2章 面向对象
-搭建开发环境
-什么是面向对象
-UML类图
+#### 2.1 搭建开发环境
+1. 初始化npm
+2. 安装webapck
+   1. `npm init -y`
+   2. `npm i webpack webpack-cli webpack-dev-server html-webpack-plugin`
+   3. 搭建目录结构
+   4. 配置webpack.dev.config.js
+3. 安装babel
+   1. `npm i @babel/core @babel/preset-env  babel-loader -D`
+   2. 配置`.babelrc`
+```
+.
+├── README.md
+├── index.html
+├── package.json
+├── src
+│   └── index.js
+└── webpack.dev.config.js
+
+```
 ### 第3章 设计原则
 ### 第4章 工厂模式
 ### 第5章 单例模式
