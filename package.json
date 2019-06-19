@@ -1,0 +1,27 @@
+{
+  "name": "javascript_design_patterns",
+  "version": "1.0.0",
+  "description": "> javascirpt设计模式整理归纳",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GivenCui/javascript_design_patterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GivenCui/javascript_design_patterns/issues"
+  },
+  "homepage": "https://github.com/GivenCui/javascript_design_patterns#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
